@@ -1,0 +1,23 @@
+{
+    "nombre": "Andorra",
+    "Bandera":"Link",
+    "recetas":{
+        "Crema de Ortigas":{
+            "imagen":"link",
+            "ingredientes":{
+                "ingrediente1":{
+                    "nombre": "",
+                    "cantidad":"1 litro"
+                },
+                "Ingrediente2":{
+                    "nombre":"",
+                    "cantidad":"1/4 kilo"
+                },
+                "Ingrediente3":{
+                    "nombre":"",
+                    "cantidad":"1/4 kilo"
+                },
+            }
+        }
+    }
+}
