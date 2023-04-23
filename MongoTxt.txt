@@ -1,0 +1,379 @@
+Coleccion recetasDePaises
+
+{
+	"nombre": "Nombre del Pais",
+	"bandera": "Link Bandera",
+	"recetas":[
+		{	
+			"nombre": "Nombre de la comida",
+			"descripcion": ["Parrafo 1", "Parrafo 2"],
+			"imagen": "link imagen comida",
+			"ingredientes":[
+				{
+					"nombre": "nombre de ingredientes",
+					"cantidad": "cantidad del ingrediente",
+					"opcional": "false es NO opcional y true es opcional"
+				}
+			],
+			"preparacion":["paso1", "paso2"],
+			"consejos":["consejo1", "consejo2"]
+		}
+	]
+}
+
+############################################ INSERT ############################################
+
+db.recetasDePaises.insertMany([
+{
+        "nombre":"Islas Seychelles",
+        "bandera":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Seychelles.svg/203px-Flag_of_Seychelles.svg.png",
+        "recetas":[
+            {
+                "nombre":"Buñuelos de calabaza",
+                "descripcion":[
+                    "En esta ocasión, Recetas de Viajes realiza su primera incursión en la cocina de uno de los rincones más idílicos de África y del mundo: las incomparables Islas Seychelles. En concreto, lo que aquí se ofrece es el buque insignia de su repostería: los deliciosos buñuelos de calabaza con jarabe.",
+                    "Ésta es la fórmula perfecta para poner el broche de oro a una comida típica de la zona, en la que el pescado suele ser el protagonista. Cocinado con gran simplicidad, aromatizado con especias o leche de caco y acompañado de arroz, plátano o palmitos, este ingrediente nunca falta en el recetario local.",
+                    "Del mismo modo, también adquieren una gran relevancia los productos del mar, como los llamados «tec-tec» (una especie de chirlas locales) o los «trululús«, pequeños cangrejos autóctonos. Veamos a continuación la receta para elaborar estos deliciosos buñuelos."
+                ],
+                "imagen":"https://recetasdeviajes.com/wp-content/uploads/2012/03/bunuelos_calabaza.jpg",
+                "ingredientes":[
+                    {
+                        "nombre":"calabaza",
+                        "cantidad":"250 gramos",
+                        "opcional":false
+                    },
+                    {
+                        "nombre":"harina",
+                        "cantidad":"200 gramos",
+                        "opcional":false
+                    },
+                    {
+                        "nombre":"mantequilla o margarina",
+                        "cantidad":"75 gramos",
+                        "opcional":false
+                    },
+                    {
+                        "nombre":"azucar",
+                        "cantidad":"50 gramos",
+                        "opcional":false
+                    },
+                    {
+                        "nombre":"huevos",
+                        "cantidad":"2",
+                        "opcional":false
+                    },
+                    {
+                        "nombre":"claras de huevo",
+                        "cantidad":"2",
+                        "opcional":false
+                    },
+                    {
+                        "nombre":"aceite vegetal",
+                        "cantidad":"1 cucharadita",
+                        "opcional":false
+                    },
+                    {
+                        "nombre":"esencia de vainilla",
+                        "cantidad":"1 pizca",
+                        "opcional":false
+                    },
+                    {
+                        "nombre":"nuez moscada",
+                        "cantidad":"1 pizca",
+                        "opcional":false
+                    },
+                    {
+                        "nombre":"azúcar para jarabe",
+                        "cantidad":"250 gramos",
+                        "opcional":false
+                    },
+                    {
+                        "nombre":"agua",
+                        "cantidad":"250 ml",
+                        "opcional":false
+                    },
+                    {
+                        "nombre":"vainilla",
+                        "cantidad":"1 pizca",
+                        "opcional":false
+                    }
+                ],
+                "preparacion":[
+                    "Lavar y trocear la calabaza. Cocerla con un poco de agua, escurrirla, chafarla y dejar que se enfríe.",
+                    "En un recipiente, con la ayuda de una espátula, mezclar la calabaza aplastada con la mantequilla o margarina, los huevos enteros y el aceite. Añadir poco a poco la harina pasada por el tamiz hasta obtener una pasta.",
+                    "Seguidamente, montar las claras de huevo a punto de nieve, agregarlas a la masa y mezclar con cuidado. Aromatizar con un poco de nuez moscada y vainilla. Tapar y dejar reposar hasta su uso.",
+                    "Para preparar el jarabe, cocer a fuego suave el azúcar, la vainilla y el agua que se indicaba en el apartado de los ingredientes. Dejar enfriar.",
+                    "Finalmente, freír con aceite abundante la pasta, formando bolas de 50 gr. Escurrir y servir con el jarabe aparte."
+                ]
+            }
+        ]
+    }
+]);
+
+db.recetasDePaises.insertMany([{
+        "nombre":"Alemania",
+        "bandera":"https://upload.wikimedia.org/wikipedia/commons/b/ba/Flag_of_Germany.svg",
+        "recetas":[
+            {
+                "nombre":"Gaisburger Marsch",
+                "descripcion": ["La gastronomía alemana se caracteriza por estar influenciada por diversas culturas de pueblos limítrofes, y es por eso que se diferencian tanto las tradiciones a la hora de comer en las distintas regiones del país. El las regiones de Suabia-Baviera y de Baden-Wurtemberg, así como en regiones cercanas de otros países, tales como Austria. Los platillos de esta zona se distinguen por su extendido uso de diversas harinas y el consumo habitual de pastas típicas y carnes. Hoy aprenderemos a elaborar una receta muy tradicional. Se trata de un cocido fundamental en la cocina de Suabia, que consta de pasta rellena de carne en una sopa bien abundante. Veamos la receta para su elaboración."],
+                "imagen":"https://recetasdeviajes.com/wp-content/uploads/2011/02/gaisburger-marsch.jpg",
+                "ingredientes":[
+                    {
+                        "nombre":"Carne de res",
+                        "cantidad":"500 gramos",
+                        "opcional": false
+                    },
+                    {
+                        "nombre":"Hueso para sopa",
+                        "cantidad":"400 gramos",
+                        "opcional": false
+                    },
+                    {
+                        "nombre":"Cebollas",
+                        "cantidad":"1500 gramos",
+                        "opcional": false
+                    },
+                    {
+                        "nombre":"Apio",
+                        "cantidad":"Cantidad necesaria",
+                        "opcional": false
+                    },
+                    {
+                        "nombre":"Perejil",
+                        "cantidad":"Cantidad necesaria",
+                        "opcional": false
+                    },
+                    {
+                        "nombre":"Zanahoria",
+                        "cantidad":"Cantidad necesaria",
+                        "opcional": false
+                    },
+                    {
+                        "nombre":"Papa",
+                        "cantidad":"500 gramos",
+                        "opcional": false
+                    },
+                    {
+                        "nombre":"Manteca",
+                        "cantidad":"1 cucharada",
+                        "opcional": false
+                    },
+                    {
+                        "nombre":"Ciboulette",
+                        "cantidad":"Cantidad necesaria",
+                        "opcional": false
+                    },
+                    {
+                        "nombre":"Sal",
+                        "cantidad":"Cantidad necesaria",
+                        "opcional": false
+                    },
+                    {
+                        "nombre":"Pimienta",
+                        "cantidad":"Cantidad necesaria",
+                        "opcional": false
+                    },
+                    {
+                        "nombre":"Spätzle",
+                        "cantidad":"1",
+                        "opcional": false
+                    }
+                ],
+                "preparacion":["Tomar la media cebolla y colocarla con el corte hacia abajo sobre una sartén con aceite caliente, hasta que dore.",
+                                "Tomar las verduras (apio, perejil y zanahoria) y cortarlos en trozos pequeños.",
+                                "En una olla, colocar la carne, los huesos, las verduras cortadas, la cebolla dorada y añadir abundante agua.",
+                                "Llevar al fuego y salpimentar a gusto.",
+                                "Los ingredientes deben cocinarse durante dos horas a fuego lento. Es necesario mantenerse atento a que el agua no se agote, para no quemar la preparación. Si hace falta, se puede añadir agua para que esto no ocurra.",
+                                "Mientras tanto, se pueden ir preparando los Spätzle según indica esta receta.",
+                                "Pelar y cortar las papas en cubos y cortar la cebolla restante en aros.",
+                                "Dorar todo en manteca y añadir al caldo.",
+                                "Espolvorear la preparación con ciboulette."]
+            }
+        ]
+    }]);
+
+
+db.recetasDePaises.insertMany({
+        "nombre":"Argentina",
+        "bandera":"",
+        "recetas":[
+            {
+                "nombre":"Pasta Frola",
+                "imagen":"https://recetasdeviajes.com/wp-content/uploads/2011/09/i5569_1.jpg",
+                "descripcion":  ["La pastelería en Argentina es ampliamente variada. Podéis encontrar delicias que van desde la famosa torta selva negra, el estrudel de manzana, las populares tortitas negras muy consumidas a la hora del mate en Rosario y Tapalqué, el budín inglés, los bizcochuelos de vainilla, chocolate o naranja, o bien, la deliciosa pasta frola, sobre la cual os dedicaremos atención en cómo prepararla.",
+                                "Vale señalar que dicha tarta (también elaborada en la cocina de Paraguay y la de Uruguay) consta de una masa cubierta con dulce de membrillo, dulce de batata, dulce de leche o dulce de guayaba, y por lo general, se la suele adornar con tiras finas de la misma masa por lo que su forma es completamente cuadriculada romboidal.",
+                                "¿Qué significa el término pastafrola o pasta frola? Pues deriva del italiano “pasta frolla”, lo que quiere decir pasta brisa, la cual es la masa con la que se elabora la crostata, un dulce clásico de Italia. Ahora si, os invito a compartir el paso a paso de cómo preparar pasta frola."],
+                "ingredientes":[
+                    {
+                        "nombre":"Manteca",
+                        "cantidad":"150 gramos",
+                        "opcional": false
+                    },
+                    {
+                        "nombre":"Huevos",
+                        "cantidad":"2",
+                        "opcional": false
+                    },
+                    {
+                        "nombre":"Harina Leudante",
+                        "cantidad":"400 gramos",
+                        "opcional": false
+                    },
+                    {
+                        "nombre":"Azucar",
+                        "cantidad":"100 gramos",
+                        "opcional": false
+                    },
+                    {
+                        "nombre":"Coñac",
+                        "cantidad":"1 cucharadita",
+                        "opcional": true
+                    },
+                    {
+                        "nombre":"Limon",
+                        "cantidad":"Ralladura",
+                        "opcional": false
+                    },
+                    {
+                        "nombre":"Dulce de membrillo",
+                        "cantidad":"500 gramos",
+                        "opcional": false
+                    },
+                    {
+                        "nombre":"agua o vino",
+                        "cantidad":"Cantidad Necesaria",
+                        "opcional": false
+                    }
+                ],
+                "preparacion":  ["En un bol debéis colocar la harina leudante y en el centro del mismo hay que desgranar por completo la manteca (que en lo aconsejable sería bueno que esté blanda para evitar mejor trabajo).",
+                                "A continuación, añadir los huevos, la ralladura de limón, el coñac y el azúcar. Mezclar todo bien con una cuchara o con las manos hasta que obtengáis la masa. Tomarla con las manos, envolverla en un plástico y llevarla a la heladera por una hora aproximadamente. La idea es que adquiera un poco de frío para su mejor manejo.",
+                                "Mientras descansa la masa, podéis comenzar a ablandar el dulce y para ello, debéis poner en una sartén a fuego mínimo el dulce (previamente cortado en cubos). Añadir dos o tres cucharadas de agua o vino y a medida que se vaya ablandando, lo vais pisando hasta que quede como una mermelada, retirar y reservar a un lado.",
+                                "Una vez lista la masa, separar 1/3 y el resto lo estiráis en la tartera. Por encima de la masa debéis colocar el dulce por toda la superficie y con el resto de la masa, hay que estirar pequeñas tiras finas para lograr formar el cuadriculado romboidal."]
+            }
+        ]
+    }]);
+
+
+
+############################################ Queries ############################################
+
+db.recetasDePaises.find() => Trae la colección "recetasDePaises" completa
+
+db.recetasDePaises.find({},{"nombre":1}) => Trae los nombre de los paises de la colección "recetasDePaises"
+
+db.recetasDePaises.find({},{"recetas":{"nombre":1}}) => Trae los nombres de las comidas que tienen receta
+
+db.recetasDePaises.find({},{"_id":0,"nombre":1,"recetas":{"nombre":1}}) => Trae los nombre de los paises junto con los nombre de la comida que tienen receta
+
+
+############################################ Update ############################################
+
+db.recetasDePaises.update({nombre:"Alemania"},{$push:{recetas:{
+{
+                "nombre":"Konigsberger Klopse",
+                "descripcion": ["En términos generales, la cocina en Alemania varía dependiendo de la zona o ciudad en que nos localicemos. Podréis encontrar un sin fin de clases de panes (como el semmel o Brotchen), quesos de todo tipo, más de 1500 variedades de salchichas (verdes, blancas, rojas, asadas) y reconocidos platos típicos, como el Königsberger Klopse en Berlín (capital de Alemania), similar a las albóndigas de carne bañadas en salsa de crema con alcaparras.",
+                                "Esta comida, de fácil preparación, es ideal para homenajear a amigos o familia. Básicamente los ingredientes son cebolla, huevo, especias y carne picada.",
+                                "De esta manera, con el transcurso del tiempo el Königsberger Klopse fue tomando popularidad en cada rincón del mundo, por lo que podréis ubicarla tanto en restaurantes de Barcelona como de Suiza. Claro que cada uno de ellos, tiene alguna que otra variación y en lo que respecta a Berlín, suele servirse con guarnición de alcaparras. Pues ahora si, pasemos a la receta principal."],
+                "imagen":"https://recetasdeviajes.com/wp-content/uploads/2010/10/konigsberger-klopse.jpg",
+                "ingredientes":[
+                    {
+                        "nombre":"Carne de res picada",
+                        "cantidad":"1000 gramos",
+                        "opcional": false
+                    },
+                    {
+                        "nombre":"Huevos",
+                        "cantidad":"2",
+                        "opcional": false
+                    },
+                    {
+                        "nombre":"Pan rallado",
+                        "cantidad":"2 tazas",
+                        "opcional": false
+                    },
+                    {
+                        "nombre":"Cebollas",
+                        "cantidad":"2",
+                        "opcional": false
+                    },
+                    {
+                        "nombre":"Crema de leche",
+                        "cantidad":"300 gramos",
+                        "opcional": false
+                    },
+                    {
+                        "nombre":"Caldo",
+                        "cantidad":"750 gramos",
+                        "opcional": false
+                    },
+                    {
+                        "nombre":"Leche",
+                        "cantidad":"500 mililitros",
+                        "opcional": false
+                    },
+                    {
+                        "nombre":"Manteca",
+                        "cantidad":"100 gramos",
+                        "opcional": false
+                    },
+                    {
+                        "nombre":"Harina 0000",
+                        "cantidad":"100 gramos",
+                        "opcional": false
+                    },
+                    {
+                        "nombre":"Sal",
+                        "cantidad":"Cantidad necesaria",
+                        "opcional": false
+                    },
+                    {
+                        "nombre":"Pimienta",
+                        "cantidad":"Cantidad necesaria",
+                        "opcional": false
+                    },
+                    {
+                        "nombre":"Alcaparras",
+                        "cantidad":"2 cucharadas",
+                        "opcional": false
+                    }
+                ],
+                "preparacion":["Lo primero que se debe realizar es cortar la cebolla en pequeños trozos. Paralelamente, dejar remojar el pan rallado en un bol junto con la leche, los huevos, una pizca de sal, pimienta y dejar reposar unos 10 minutos. Luego agregar la carne picada y mezclar bien con las manos hasta lograr una consistencia homogénea.",
+                                "Pasado el tiempo, tomar una sartén, echar un chorrito de aceite y saltear las cebollas. Cuando estén doradas, incorporar la preparación anterior y sacar del fuego una vez que no queden huecos color rojizo.",
+                                "Ahora si, para comenzar a realizar las albóndigas, mojarse las manos y formar bolas de carne. Pasar por harina e introducirlas en una sartén con un poco de aceite y dorar vuelta y vuelta, con el fin de sellarlas. Una vez finalizado dicho paso, dejar reposar.",
+                                "Para la salsa, derretir la mantequilla o margarina en una sartén, agregar la harina y el caldo hasta que todo se espese. Revolver constantemente durante 5 minutos y mientras tanto, incorporar sal, pimienta y por último, la crema y las alcaparras.",
+                                "Para la presentación, terminar la cocción agregando las albóndigas en la salsa unos 5 minutos más y servir con guarnición de patatas o arroz recién cocido."]
+            }
+});
+
+db.recetasDePaises.update({nombre:"Australia"},{$push:{recetas:{"nombre":"Vegemite",
+                "descripcion": "Vegemite (AFI: ['vɛdʒɪˌmaɪt]) es la marca registrada para una pasta de untar de carácter alimenticio, de color marrón oscuro y sabor salado, elaborada con extracto de levadura. Se emplea principalmente como ingrediente de untar en los sándwiches y las tostadas, aunque existen recetas para que sea de vez en cuando empleada en la cocina. Es un elemento muy popular en Australia y Nueva Zelanda y se conoce como uno de los alimentos nacionales de Australia - puede ser encontrado en muchos lugares en los que hay comunidades de australianos como por ejemplo Londres. El Dr. Cyril P. Callister, tecnólogo en alimentación, inventó el producto Vegemite en el año 1923, en el que su patrón, perteneciente a la compañía del australiano Fred Walker, hizo que desarrollara una pasta basada en un subproducto de la levadura de cerveza cuando tras la guerra se había interrumpido la fuente de pastas de untar importadas de la levadura.",
+                "imagen":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Vegemiteontoast_large.jpg/250px-Vegemiteontoast_large.jpg",
+                "ingredientes":[
+                    {
+                        "nombre":"pan blando",
+                        "cantidad":"4 rebanadas",
+                        "opcional": false
+                    },
+                    {
+                        "nombre":"mantequilla",
+                        "cantidad":"300 gramos",
+                        "opcional": false
+                    },
+                    {
+                        "nombre":"Vegmite",
+                        "cantidad":"400 gramos",
+                        "opcional": false
+                    },
+                    {
+                        "nombre":"queso",
+                        "cantidad":"100 gramos",
+                        "opcional": false
+                    }
+                ],
+                "preparacion":["Tueste las rebanadas de pan.",
+                                "únte las tostadas con mantequilla generosamente mientras todavía están calientes",
+                                "Extienda una fina capa de Vegemite por encima.",
+                                "Extienda los 100 gramos de queso y disfrute de inmediato."
+                            ]
+}}});
