@@ -1,20 +1,20 @@
 Para instalar las dependencias hacer
 
-''' JavaScript
+``` JavaScript
     npm install
-'''
+```
 
 Esto les intala las dependencias necesarias
 
 Luego, con la terminal posicionada en la carpeta, le dan a 
 
-''' Node
+``` Node
     npm start
-'''
+```
 
 Este comando en el fondo (en el archivo package.json, en Scripts lo puede ver) ejecuta 
-''' Javascript
+``` Javascript
     node index.js
-'''
+```
 
 Y así van probando las queries de main.js
