@@ -1,0 +1,60 @@
+{
+    "nombre": "Churrasco",
+            "descripcion": ["En esta ocasión, toca atravesar el Atlántico para disfrutar de una de las especialidades más internacionales de la cocina argentina: un delicioso churrasco de ternera. Esta forma de preparar la carne (a la parrilla) no debe confundirse con otra fórmula magistral: el asado, que requiere de un asador (perdón por la redundancia). En cualquier caso, a pesar de que en el pasado ambas variantes fueron muy habituales en la Patagonia, el incremento del precio de las materias primas ha hecho que actualmente estos platos se reserven sólo para los días festivos."],
+            "imagen": "https://recetasdeviajes.com/wp-content/uploads/2012/07/Churrasco-de-Argentina.jpg",
+            "ingredientes": [
+                {
+                    "nombre": "churrascos (la parte ancha de la costilla sin hueso de ternera o buey)",
+                    "cantidad": "4 de 600 gms c/u",
+                    "opcional": false
+                },{
+                    "nombre": "salsa de Chimichurri",
+                    "cantidad": "a gusto",
+                    "opcional": false
+                },{
+                    "nombre": "sal",
+                    "cantidad": "a gusto",
+                    "opcional": false
+                },{
+                    "nombre": "pimienta",
+                    "cantidad": "a gusto",
+                    "opcional": false
+                },{
+                    "nombre": "pimiento rojo mediano",
+                    "cantidad": "1",
+                    "opcional": false
+                },{
+                    "nombre": "cebolla pequeña",
+                    "cantidad": "1",
+                    "opcional": false
+                },{
+                    "nombre": "aceite oliva virgen",
+                    "cantidad": "1/2 vaso",
+                    "opcional": false
+                },{
+                    "nombre": "vinagre",
+                    "cantidad": "1/2 vaso",
+                    "opcional": false
+                },{
+                    "nombre": "ajo",
+                    "cantidad": "4 dientes",
+                    "opcional": false
+                },{
+                    "nombre": "guindilla picada",
+                    "cantidad": "al gusto",
+                    "opcional": false
+                },{
+                    "nombre": "orégano",
+                    "cantidad": "1 pizca",
+                    "opcional": false
+                },{
+                    "nombre": "perejil",
+                    "cantidad": "1 pizca",
+                    "opcional": false
+                }
+            ],
+            "preparacion": ["Poner la carne del lado graso sobre una parrilla bien caliente, e ir girando de vez en cuando. Una vez asada, salpimentar y, si se desea, rociar con salsa de Chimichurri (una especie de vinagre picante).",
+                        "A continuación, para hacer la salsa, trinchar la cebolla y el pimiento, mezclar el aceite y el vinagre y agregar los ingredientes restantes, removiéndolo todo un poco, sin batidora. Servir inmediatamente.",
+                        "Para que el resultado del churrasco sea perfecto, es muy importante no hacer cortes cuando la carne todavía está en crudo. De hecho, aunque de este modo se cuece más rápido, la ternera o el buey acaban perdiendo todo su jugo, que es lo que le confiere sabor al plato."],
+            "consejos":["Por otro lado, también se aconseja elaborar la salsa antes de asar el churrasco, ya que así se macerarán mejor todos sus ingredientes."]
+        }
