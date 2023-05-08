@@ -14,7 +14,8 @@ const deleteRecetas  = require('./queries/delete.js')
 //const url = 'mongodb://myapp-mongodb-1:27017/';
 
 //  MAQUINA VIRTUAL
-const url =  'mongodb://agustina:agustina@127.0.0.1:27017/test'
+//const url =  'mongodb://agustina:agustina@127.0.0.1:27017/test'
+const url = 'mongodb://David:bitnami.@127.0.0.1:27017/test';
 
 
 const client = new MongoClient(url);
@@ -26,6 +27,9 @@ const collection = database.collection(bd.collection);
 //-------------------- QUERIES
 // insertsRecetas(collection, () => client.close())
 // cantidadDeRecetasPorPais(collection, () => client.close())
+// filtrarPaises(cadena, collection, () => client.close()) //Se envia una cadena para filtrar los paises
+// imagenDeRecetas(pais, collection, () => client.close()) //Se envia un pais por el cual se quieren filtrar las recetas
 // recetasConConsejos(collection, () => client.close())
 // deleteRecetas(collection, () => client.close())
 // updateRecetas(collection, () => client.close())
+// 

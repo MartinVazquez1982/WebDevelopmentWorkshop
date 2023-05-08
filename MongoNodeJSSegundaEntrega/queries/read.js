@@ -33,7 +33,40 @@ async function recetasConConsejos(collection, callback){
     }
 }
 
+async function imagenDeRecetas(pais, collection, callback) {
+    try {
+        const query = {nombre: pais};
+        const options = {
+            projection: { "_id": 0, recetas:{nombre: 1, imagen: 1}}
+        }
+        const salida =  collection.find(query, options);
+        console.log("Las comidas de " + pais + " tienen esta pinta: " )
+        await salida.forEach(console.dir);
+    }  catch(err) {
+        console.log(err)
+    } finally{
+        await callback()
+    }
+}
+
+async function filtrarPaises(cadena, collection, callback) {
+    try {
+        const query = {nombre: new RegExp('^' + cadena, 'i')};
+        const options = {
+            projection: { "_id": 0, nombre: 1}
+        }
+        const salida =  collection.find(query, options);
+        await salida.forEach(console.dir);
+    }  catch(err) {
+        console.log(err)
+    } finally{
+        await callback()
+    }
+}
+
 module.exports = {
     cantidadDeRecetasPorPais, 
-    recetasConConsejos
+    recetasConConsejos,
+    imagenDeRecetas,
+    filtrarPaises
 }
