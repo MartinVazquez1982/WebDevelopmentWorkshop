@@ -32,4 +32,4 @@ const collection = database.collection(bd.collection);
 // recetasConConsejos(collection, () => client.close())
 // deleteRecetas(collection, () => client.close())
 // updateRecetas(collection, () => client.close())
-// 
+
