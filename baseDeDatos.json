@@ -1,7 +1,7 @@
 [
     {
         "nombre":"Argentina",
-        "bandera":"",
+        "bandera":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/300px-Flag_of_Argentina.svg.png",
         "recetas":[
             {
                 "nombre":"Pasta Frola",
@@ -56,6 +56,66 @@
                                 "Mientras descansa la masa, podéis comenzar a ablandar el dulce y para ello, debéis poner en una sartén a fuego mínimo el dulce (previamente cortado en cubos). Añadir dos o tres cucharadas de agua o vino y a medida que se vaya ablandando, lo vais pisando hasta que quede como una mermelada, retirar y reservar a un lado.",
                                 "Una vez lista la masa, separar 1/3 y el resto lo estiráis en la tartera. Por encima de la masa debéis colocar el dulce por toda la superficie y con el resto de la masa, hay que estirar pequeñas tiras finas para lograr formar el cuadriculado romboidal."
                             ]
+            },
+            {
+                "nombre": "Churrasco",
+                        "descripcion": ["En esta ocasión, toca atravesar el Atlántico para disfrutar de una de las especialidades más internacionales de la cocina argentina: un delicioso churrasco de ternera. Esta forma de preparar la carne (a la parrilla) no debe confundirse con otra fórmula magistral: el asado, que requiere de un asador (perdón por la redundancia). En cualquier caso, a pesar de que en el pasado ambas variantes fueron muy habituales en la Patagonia, el incremento del precio de las materias primas ha hecho que actualmente estos platos se reserven sólo para los días festivos."],
+                        "imagen": "https://recetasdeviajes.com/wp-content/uploads/2012/07/Churrasco-de-Argentina.jpg",
+                        "ingredientes": [
+                            {
+                                "nombre": "churrascos (la parte ancha de la costilla sin hueso de ternera o buey)",
+                                "cantidad": "4 de 600 gms c/u",
+                                "opcional": false
+                            },{
+                                "nombre": "salsa de Chimichurri",
+                                "cantidad": "a gusto",
+                                "opcional": false
+                            },{
+                                "nombre": "sal",
+                                "cantidad": "a gusto",
+                                "opcional": false
+                            },{
+                                "nombre": "pimienta",
+                                "cantidad": "a gusto",
+                                "opcional": false
+                            },{
+                                "nombre": "pimiento rojo mediano",
+                                "cantidad": "1",
+                                "opcional": false
+                            },{
+                                "nombre": "cebolla pequeña",
+                                "cantidad": "1",
+                                "opcional": false
+                            },{
+                                "nombre": "aceite oliva virgen",
+                                "cantidad": "1/2 vaso",
+                                "opcional": false
+                            },{
+                                "nombre": "vinagre",
+                                "cantidad": "1/2 vaso",
+                                "opcional": false
+                            },{
+                                "nombre": "ajo",
+                                "cantidad": "4 dientes",
+                                "opcional": false
+                            },{
+                                "nombre": "guindilla picada",
+                                "cantidad": "al gusto",
+                                "opcional": false
+                            },{
+                                "nombre": "orégano",
+                                "cantidad": "1 pizca",
+                                "opcional": false
+                            },{
+                                "nombre": "perejil",
+                                "cantidad": "1 pizca",
+                                "opcional": false
+                            }
+                        ],
+                        "preparacion": ["Poner la carne del lado graso sobre una parrilla bien caliente, e ir girando de vez en cuando. Una vez asada, salpimentar y, si se desea, rociar con salsa de Chimichurri (una especie de vinagre picante).",
+                                    "A continuación, para hacer la salsa, trinchar la cebolla y el pimiento, mezclar el aceite y el vinagre y agregar los ingredientes restantes, removiéndolo todo un poco, sin batidora. Servir inmediatamente.",
+                                    "Para que el resultado del churrasco sea perfecto, es muy importante no hacer cortes cuando la carne todavía está en crudo. De hecho, aunque de este modo se cuece más rápido, la ternera o el buey acaban perdiendo todo su jugo, que es lo que le confiere sabor al plato."],
+                        "consejos":["Por otro lado, también se aconseja elaborar la salsa antes de asar el churrasco, ya que así se macerarán mejor todos sus ingredientes."]
             }
         ]
     },
@@ -612,6 +672,61 @@
                             "Como verás, pensar en hamburguesas ya no consiste en pensar en esas que a veces vemos por televisión y que tan típicas son en Estados Unidos. A este alimento, con los conocimientos que tenemos, podemos también darle ese toque tan especial que las convertirán en un auténtico manjar."]
             }
         ]
-    
+
+    },
+    {
+        "nombre":"Chile",
+        "bandera":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Flag_of_Chile.svg/1280px-Flag_of_Chile.svg.png",
+        "recetas":[
+            {
+                "nombre":"Brazo de Reina",
+                "descripcion": ["Dentro de lo que refiere a la repostería en Chile, podemos destacar que a partir del siglo XVII, las monjas fueron las encargadas de impulsar a ésta por medio de delicias típicas como los dulces de alfajor, el dulce de membrillo y el clásico manjar. Sin embargo, si viajáis hoy al país, es posible que contempléis en cualquier carta de restaurante chileno, dulces como los churros, las empanaditas, la leche asada, el pan de Pascua y el reconocido pastel relleno Brazo de Reina.", 
+                                "Pues bien, haciendo hincapié en éste último, os quisiera resaltar que el mismo se trata de un bizcocho cubierto con crema y diversas mermeladas (moras, fresas), enrollado y decorado con azúcar glasé o bien, con chocolate, merengue o nata.",
+                                "Asimismo, y previamente a comentarles la receta de Brazo de Reina, es importante que sepáis que cada país posee su propia receta y por supuesto, su propio nombre. En este caso, Chile rellena el postre con dulce de leche o como bien comenté, mermelada de frutas."],
+                "imagen":"https://recetasdeviajes.com/wp-content/uploads/2011/10/brazo-gitano.jpg",
+                "ingredientes":[
+                    {
+                        "nombre":"Huevos",
+                        "cantidad":"3",
+                        "opcional": false
+                    },
+                    {
+                        "nombre":"Azucar",
+                        "cantidad":"75 gramos",
+                        "opcional": false
+                    },
+                    {
+                        "nombre":"Harina 0000",
+                        "cantidad":"75 gramos",
+                        "opcional": false
+                    },
+                    {
+                        "nombre":"vainilla",
+                        "cantidad":"1 cucharadita",
+                        "opcional": false
+                    },
+                    {
+                        "nombre":"Dulce de Leche",
+                        "cantidad":"300 gramos",
+                        "opcional": false
+                    },
+                    {
+                        "nombre":"Mantequilla",
+                        "cantidad":"Cantidad necesaria",
+                        "opcional": false
+                    },
+                    {
+                        "nombre":"Azucar glase",
+                        "cantidad":"Cantidad necesaria",
+                        "opcional": false
+                    }
+                ],
+                "preparacion":["Lo primero que debéis realizar es batir los huevos con el azúcar y la cucharadita de vainilla hasta que observéis que duplica su volumen. A continuación, agregar la harina por medio de un tamiz (colador bien fino) y mezclar con mucho cuidado para evitar que baje la masa.",
+                                "Una vez lista, verter sobre una bandeja para horno (previamente forrada con papel de aluminio, engrasado con un poquito de mantequilla y espolvoreado con harina) la preparación y llevarla a horno de 180 grados por 12 minutos aproximadamente.",
+                                "Pasado el tiempo, volcar la masa sobre un paño de cocina previamente enharinado y rellenar con el dulce de leche. Dejar enfriar por media hora en la heladera.",
+                                "Una vez que está fría la masa con su relleno, recortar las puntas y espolvorear con azúcar o bañar con chocolate deshecho.",
+                                "Recuerden que ésta receta es ideal para realizarla en horas de la merienda o bien, en cualquier momento del día para ingerirla durante el desayuno."]
+            }
+        ]
     }
 ]
