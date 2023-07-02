@@ -1,0 +1,234 @@
+POST http://localhost:3000/recipes/insertPais HTTP/1.1
+content-type: application/json
+
+{
+    "nombre": "Italia",
+    "bandera": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Flag_of_Italy.svg/300px-Flag_of_Italy.svg.png",
+    "recetas":[
+        {
+            "nombre": "Pasta con salmon y nata",
+            "descripcion": ["Para el día de hoy hemos seleccionado una receta muy sabrosa y sencilla de preparar, la pasta con salmón y salsa a base de nata, un plato que admite muchos añadidos y cambios gracias a su equilibrio de sabores. Para esta receta podemos utilizar tanto salmón natural como ahumado o también salmón marinado, aunque hemos de tener cuidado con el exceso de sal. En cualquier caso esta receta de pasta no os llevará más de una hora de trabajo y casi todos los ingredientes excepto el salmón son de «andar por casa»."],
+            "imagen": "https://recetasdeviajes.com/wp-content/uploads/2014/05/Pasta-nata-y-salmon.jpg",
+            "ingredientes":[
+                {
+                    "nombre": "Pasta a eleccion",
+                    "cantidad": "400 gramos",
+                    "opcional": false
+                },
+                {
+                    "nombre": "salmón ahumado",
+                    "cantidad": "250 gramos",
+                    "opcional": false
+                },
+                {
+                    "nombre": "nata para cocinar",
+                    "cantidad": "500 ml",
+                    "opcional": false
+                },
+                {
+                    "nombre": "cebolla",
+                    "cantidad": "1",
+                    "opcional": false
+                },
+                {
+                    "nombre": "dientes de ajo",
+                    "cantidad": "3",
+                    "opcional": false
+                },
+                {
+                    "nombre": "aceitunas verdes sin carozo",
+                    "cantidad": "un puñado",
+                    "opcional": false
+                },
+                {
+                    "nombre": "Eneldo",
+                    "cantidad": "a gusto",
+                    "opcional": false
+                },
+                {
+                    "nombre": "Sal",
+                    "cantidad": "a gusto",
+                    "opcional": false
+                },
+                {
+                    "nombre": "Pimienta negra",
+                    "cantidad": "a gusto",
+                    "opcional": false
+                },
+                {
+                    "nombre": "aceite de oliva",
+                    "cantidad": "a gusto",
+                    "opcional": false
+                }
+            ],
+            "preparacion":["En primer lugar hemos de poner a hervir en un caldero el agua para la pasta, añadiendo sal y un poco de aceite. Mientras la pasta se va cociendo trabajaremos con el resto de ingredientes. Si se cuece antes de que terminemos con el acompañamiento apagaremos el fuego, la escurriremos y reservaremos aparte.",
+                            "Ahora pelamos y picamos el ajo y la cebolla para luego, en una sartén, verter un poco de aceite y hacer un sofrito.",
+                            "Una vez la cebolla esté pochada le agregaremos la mayor parte del salmón cortado en tiras (el resto lo reservamos) y le daremos el punto de al y pimienta, cocinándolo durante apenas 3 minutos. Añadimos la nata y removemos bien durante dos minutos más para que todo se mezcle.",
+                            "Cortamos en láminas las aceitunas y las añadimos a la salsa en el último momento.",
+                            "Ahora vertemos la pasta sobre la salsa y le damos un «calentón» en la sartén de apenas 1 minuto para que no se seque demasiado.",
+                            "A la hora de servir adornaremos el plato con unas tiras del salmón reservado y un poco de perejil y eneldo para darle aroma."],
+            "consejos":["A esta receta le va muy bien un poco de jengibre rallado en el sofrito, pero con cuidado de no pasarnos ya que su sabor es muy fuerte y no gusta a todo el mundo.",
+                        "Hay otros muchos ingredientes que le van bien como por ejemplo el pimiento verde, la cebolleta y el puerro, para contrarrestar el dulzor del salmón y darle un toque más amargo."]
+        }
+    ]
+}
+
+###
+
+POST http://localhost:3000/recipes/insertPais HTTP/1.1
+content-type: application/json
+
+{
+    "nombre": "China",
+    "bandera": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/203px-Flag_of_the_People%27s_Republic_of_China.svg.png",
+    "recetas": [
+        {
+            "nombre": "Shengjian mantou",
+            "descripcion": [
+                "El desayuno en Shanghai , como en todos los países del mundo, es la comida principal del día. Pero particularmente en este país, se abocan a la realización de un pequeño bollo de pan (generalmente relleno de cerdo y gelatina) llamado “shengjian mantou” (o sheng jian), lo que significa “bollos fritos crudos”.",
+                "Precisamente el nombre de esta comida tiene su origen en el método de cocción. Los bollos (o también nombrados como baozi o bao) son colocados en forma lineal en una plancha y “espolvoreados” con agua cada tanto. Posteriormente se pueden freír, lo que da como resultado, una masa bien crocante por fuera y suave por dentro.",
+                "De fácil preparación y precio accesible, el shengjian mantou suele venderse en Shanghai en los puestos callejeros y como os decía, ingerirse en el desayuno. Un delicioso acompañamiento es una taza de sopa clara o bien, leche de soja. Ahora bien, sin más demoras, pasemos a la receta."
+            ],
+            "imagen": "https://recetasdeviajes.com/wp-content/uploads/2010/08/shengjian-mantou.jpg",
+            "ingredientes":[
+                {
+                   "nombre": "harina",
+                   "cantidad": "300 gramos",
+                   "opcional": false
+                },
+                {
+                   "nombre": "Agua",
+                   "cantidad": "Acorde con la harina",
+                   "opcional": false
+                },
+                {
+                   "nombre": "carne de cerdo",
+                   "cantidad": "200 gramos",
+                   "opcional": false
+                },
+                {
+                   "nombre": "puerro",
+                   "cantidad": "1",
+                   "opcional": false
+                },
+                {
+                   "nombre": "panceta ahumada",
+                   "cantidad": "50 gramos",
+                   "opcional": false
+                },
+                {
+                   "nombre": "sal",
+                   "cantidad": "a gusto",
+                   "opcional": false
+                },
+                {
+                   "nombre": "pimienta",
+                   "cantidad": "a gusto",
+                   "opcional": false
+                },
+                {
+                   "nombre": "pimentón",
+                   "cantidad": "a gusto",
+                   "opcional": false
+                },
+                {
+                   "nombre": "salsa de soja",
+                   "cantidad": "a gusto",
+                   "opcional": false
+                }
+            ],
+            "preparacion": [
+                "Como primer paso, amasar la harina con el agua y una pizca de sal hasta obtener una masa homogénea y de fácil manejo. Dejar reposar con unos 15 minutos.",
+                "Cortar la carne de cerdo en pequeños cuadrados, los hongos, la panceta y el puerro. Agregar sal, pimienta, pimentón y la salsa de soja. Mezclar todo.",
+                "Tomar nuevamente la masa y estirarla con un espesor entre 2 y 3 mm. Cortar círculos pequeños de 8-9 cm. de diámetro. Colocar el relleno en el medio y luego, levantar todos los bordes hacia arriba y llevarlos hacia el centro. Atar con una tira de puerro.",
+                "Ahora si, colocar las bolitas en la rejilla de la cazuela y agregar 2 cm. de agua. Cuando comience a hervir cocinar a vapor hasta que la masa quede transparente.",
+                "Si desean freírlos, una vez que los quiten de la rejilla, pueden agregar aceite a una sartén y dejarlos por unos minutos hasta que observen la masa ligeramente doradita.",
+                "Finalmente, para la presentación, servir los bollos bien calientes con salsa de soja."
+            ],
+            "consejos":[]
+        }
+    ]
+}
+
+###
+POST http://localhost:3000/recipes/insertPais HTTP/1.1
+content-type: application/json
+
+{
+        "nombre": "Rusia",
+        "bandera": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Flag_of_Russia.svg/203px-Flag_of_Russia.svg.png",
+        "recetas":[
+            {	
+                "nombre": "Shashliki",
+                "descripcion": [
+                    "Los Shashliki, carne marinada y asada a la brasa, son uno de los emblemas culinarios de Rusia además de ser algo imprescindible en cualquier reunión familiar que se precie, sobre todo en los meses de verano. En estas brochetas se puede utilizar todo tipo de carnes, pescados, verduras y mariscos, el secreto está en el marinado previo basado en el limón y las hierbas aromáticas. El marinado es una forma de dejar la carne más tierna y darle más sabor a la hora de ser cocinada, y generalmente se utiliza algún ácido natural, ya sea el limón o el vinagre (en el caso del escabeche)",
+                    "Los Shashliki apenas llevan trabajo siendo quizá la única condición imprescindible que dejemos la carne marinando al menos un día antes de asarla, por lo que habrá que ser previsor."
+                ],
+                "imagen": "https://recetasdeviajes.com/wp-content/uploads/2014/08/Shashlik.jpg",
+                "ingredientes":[
+                    {
+                        "nombre": "carne de cordero deshuesada (cortada en dados)",
+                        "cantidad": "1 kilo",
+                        "opcional": false
+                    },
+                    {
+                        "nombre": "zumo de limón",
+                        "cantidad": "1 cucharada",
+                        "opcional": false
+                    },
+                    {
+                        "nombre": "eneldo picado",
+                        "cantidad": "1 cucharada pequeña",
+                        "opcional": false
+                    },
+                    {
+                        "nombre": "tallos de apio",
+                        "cantidad": "4",
+                        "opcional": false
+                    },
+                    {
+                        "nombre": "tomates",
+                        "cantidad": "3",
+                        "opcional": false
+                    },
+                    {
+                        "nombre": "pimientos verdes",
+                        "cantidad": "2",
+                        "opcional": false
+                    },
+                    {
+                        "nombre": "cebollas",
+                        "cantidad": "2",
+                        "opcional": false
+                    },
+                    {
+                        "nombre": "hoja de laurel",
+                        "cantidad": "1",
+                        "opcional": false
+                    },
+                    {
+                        "nombre": "aceite",
+                        "cantidad": "a gusto",
+                        "opcional": false
+                    },
+                    {
+                        "nombre": "sal",
+                        "cantidad": "a gusto",
+                        "opcional": false
+                    },
+                    {
+                        "nombre": "Pimienta",
+                        "cantidad": "a gusto",
+                        "opcional": false
+                    }
+                ],
+                "preparacion":["En primer lugar hemos de tomar un recipiente y mezclar bien el aceite y el zumo de limón. A continuación agregaremos la hoja de laurel, el eneldo, el apio bien picado, la sal y la pimienta y lo mezclamos todo bien.",
+                 "Ahora colocaremos los dados de carne de cordero en otro recipiente y regaremos el aliño sobre ellos. Lo siguiente será dejarlo en la nevera entre 6 y 8 horas aproximadamente y de tanto lo removeremos un poco para que toda la carne tome sabor.",
+                 "Ahora cortaremos los tomates y las cebollas en cuartos, y los pimientos en trocitos cuadrados para ir preparando las brochetas.",
+                 "En cada brocheta pondremos entre 4 y 5 dados de carne, separados por trozos de verduras.",
+                 "Para asarlas lo mejor es tener una parrilla a fuego medio, y dejarlas entre unos 12 y 15 minutos teniendo buen cuidado de darles la vuelta para que se hagan bien y no se quemen."
+                ],
+                "consejos":["Generalmente se sirven acompañadas de arroz cocido, aunque también quedan muy bien con unas patatas asadas o incluso fritas."]
+            }
+        ]
+    }

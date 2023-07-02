@@ -1,0 +1,72 @@
+{
+    "nombre": "Palmeni",
+    "descripcion": ["Hoy te estamos acercando uno de los platos más deliciosos y típicos de la gastronomía rusa, el cual podéis preparar en tu cocina. Este tipo de cocina sabe combinar lo europeo con lo oriental, lo cual le da un valor agregado a cada ingrediente. Ahora bien, el tema central de día es cómo preparar los pelmeni. ¿Los conocéis?",
+                    "Si nos referimos a su origen ruso, este plato se cree que vino de la zona de los Montes Urales, y posee gran similitud con los llamados en Komi «pelnyan», literalmente «orejas de pan».",
+                    "Básicamente lo que vas a precisar para su elaboración es hacer una rica masa de pasta y un relleno compuesto de bolitas de carne de cerdo, aunque existen también otras opciones como los siberianos, de pescado, con rábanos y de setas.",
+                    "A continuación, toma nota de la receta que hoy te pasamos para tu agenda de cocina. Ésta en concreto es para 4 comensales."],
+    "imagen": "https://recetasdeviajes.com/wp-content/uploads/2010/06/pelmeni-de-rusia.jpg",
+    "ingredientes": [
+        {
+            "nombre":"harina de trigo",
+            "cantidad":"320 gramo",
+            "opcional": false
+        },
+        {
+            "nombre":"huevo",
+            "cantidad":"1",
+            "opcional": false
+        },
+        {
+            "nombre":"agua",
+            "cantidad":"200 ml",
+            "opcional": false
+        },
+        {
+            "nombre":"sal",
+            "cantidad":"10 gramos",
+            "opcional": false
+        },
+        {
+            "nombre":"carne de cerdo",
+            "cantidad":"450 gramoS",
+            "opcional": false
+        },
+        {
+            "nombre":"cebolla",
+            "cantidad":"50 gramos",
+            "opcional": false
+        },
+        {
+            "nombre":"Pimienta",
+            "cantidad":"a gusto",
+            "opcional": false
+        },
+        {
+            "nombre":"manteca",
+            "cantidad":"75 gramos",
+            "opcional": false
+        },
+        {
+            "nombre":"vinagre",
+            "cantidad":"25 gramos",
+            "opcional": false
+        },
+        {
+            "nombre":"nata agria",
+            "cantidad":"100 gramos",
+            "opcional": false
+        },
+        {
+            "nombre":"Perejil",
+            "cantidad":"a gusto",
+            "opcional": false
+        }
+    ],
+    "preparacion": ["Lo primero que debes hacer es tamizar la harina. Para ello debes pasarla por un colador. Una vez terminado este paso, toma un bol e introduce la harina, la leche o agua, sal y el huevo. Ahora si, amasa hasta conseguir una consistencia espesa. Tápala con un repasador durante media hora.",
+                "Pasado el tiempo, debes cortar la masa en trozos y aplástala en capas bien finas. En una de sus mitades colocar el relleno que en breve te comentamos su elaboración.",
+                "Envuelve en forma de media luna cada pelmeni y une los bordes con los dedos. Para hervirlos coloca agua con sal gruesa en una olla.",
+                "Ya tienes la masa preparada. Ahora lo primero que debes hacer es limpiar la carne y cortarla en tiritas bien finas. Asimismo, no te olvides de picar la cebolla.",
+                "En un sartén saltea la carne de cerdo junto con la cebolla y añades sal, pimienta, un chorrito de agua y continuas revolviendo hasta lograr la mezcla deseada.",
+                "Ahora que tienes todo listo, dejas hervirlos durante 5 minutos y ya están para servir en la mesa. Un consejo, quedan riquísimos con mantequilla caliente, vinagre o nata agria."],
+    "consejos": []
+}

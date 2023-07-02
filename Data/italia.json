@@ -1,0 +1,71 @@
+{
+    "nombre": "Italia",
+    "bandera": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Flag_of_Italy.svg/300px-Flag_of_Italy.svg.png",
+    "recetas":[
+        {
+            "nombre": "Pasta con salmon y nata",
+            "descripcion": ["Para el día de hoy hemos seleccionado una receta muy sabrosa y sencilla de preparar, la pasta con salmón y salsa a base de nata, un plato que admite muchos añadidos y cambios gracias a su equilibrio de sabores. Para esta receta podemos utilizar tanto salmón natural como ahumado o también salmón marinado, aunque hemos de tener cuidado con el exceso de sal. En cualquier caso esta receta de pasta no os llevará más de una hora de trabajo y casi todos los ingredientes excepto el salmón son de «andar por casa»."],
+            "imagen": "https://recetasdeviajes.com/wp-content/uploads/2014/05/Pasta-nata-y-salmon.jpg",
+            "ingredientes":[
+                {
+                    "nombre": "Pasta a eleccion",
+                    "cantidad": "400 gramos",
+                    "opcional": false
+                },
+                {
+                    "nombre": "salmón ahumado",
+                    "cantidad": "250 gramos",
+                    "opcional": false
+                },
+                {
+                    "nombre": "nata para cocinar",
+                    "cantidad": "500 ml",
+                    "opcional": false
+                },
+                {
+                    "nombre": "cebolla",
+                    "cantidad": "1",
+                    "opcional": false
+                },
+                {
+                    "nombre": "dientes de ajo",
+                    "cantidad": "3",
+                    "opcional": false
+                },
+                {
+                    "nombre": "aceitunas verdes sin carozo",
+                    "cantidad": "un puñado",
+                    "opcional": false
+                },
+                {
+                    "nombre": "Eneldo",
+                    "cantidad": "a gusto",
+                    "opcional": false
+                },
+                {
+                    "nombre": "Sal",
+                    "cantidad": "a gusto",
+                    "opcional": false
+                },
+                {
+                    "nombre": "Pimienta negra",
+                    "cantidad": "a gusto",
+                    "opcional": false
+                },
+                {
+                    "nombre": "aceite de oliva",
+                    "cantidad": "a gusto",
+                    "opcional": false
+                }
+            ],
+            "preparacion":["En primer lugar hemos de poner a hervir en un caldero el agua para la pasta, añadiendo sal y un poco de aceite. Mientras la pasta se va cociendo trabajaremos con el resto de ingredientes. Si se cuece antes de que terminemos con el acompañamiento apagaremos el fuego, la escurriremos y reservaremos aparte.",
+                            "Ahora pelamos y picamos el ajo y la cebolla para luego, en una sartén, verter un poco de aceite y hacer un sofrito.",
+                            "Una vez la cebolla esté pochada le agregaremos la mayor parte del salmón cortado en tiras (el resto lo reservamos) y le daremos el punto de al y pimienta, cocinándolo durante apenas 3 minutos. Añadimos la nata y removemos bien durante dos minutos más para que todo se mezcle.",
+                            "Cortamos en láminas las aceitunas y las añadimos a la salsa en el último momento.",
+                            "Ahora vertemos la pasta sobre la salsa y le damos un «calentón» en la sartén de apenas 1 minuto para que no se seque demasiado.",
+                            "A la hora de servir adornaremos el plato con unas tiras del salmón reservado y un poco de perejil y eneldo para darle aroma."],
+            "consejos":["A esta receta le va muy bien un poco de jengibre rallado en el sofrito, pero con cuidado de no pasarnos ya que su sabor es muy fuerte y no gusta a todo el mundo.",
+                        "Hay otros muchos ingredientes que le van bien como por ejemplo el pimiento verde, la cebolleta y el puerro, para contrarrestar el dulzor del salmón y darle un toque más amargo."]
+        }
+    ]
+}

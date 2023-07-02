@@ -1,0 +1,71 @@
+{
+    "nombre": "China",
+    "bandera": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/203px-Flag_of_the_People%27s_Republic_of_China.svg.png",
+    "recetas": [
+        {
+            "nombre": "Shengjian mantou",
+            "descripcion": [
+                "El desayuno en Shanghai , como en todos los países del mundo, es la comida principal del día. Pero particularmente en este país, se abocan a la realización de un pequeño bollo de pan (generalmente relleno de cerdo y gelatina) llamado “shengjian mantou” (o sheng jian), lo que significa “bollos fritos crudos”.",
+                "Precisamente el nombre de esta comida tiene su origen en el método de cocción. Los bollos (o también nombrados como baozi o bao) son colocados en forma lineal en una plancha y “espolvoreados” con agua cada tanto. Posteriormente se pueden freír, lo que da como resultado, una masa bien crocante por fuera y suave por dentro.",
+                "De fácil preparación y precio accesible, el shengjian mantou suele venderse en Shanghai en los puestos callejeros y como os decía, ingerirse en el desayuno. Un delicioso acompañamiento es una taza de sopa clara o bien, leche de soja. Ahora bien, sin más demoras, pasemos a la receta."
+            ],
+            "imagen": "https://recetasdeviajes.com/wp-content/uploads/2010/08/shengjian-mantou.jpg",
+            "ingredientes":[
+                {
+                   "nombre": "harina",
+                   "cantidad": "300 gramos",
+                   "opcional": false
+                },
+                {
+                   "nombre": "Agua",
+                   "cantidad": "Acorde con la harina",
+                   "opcional": false
+                },
+                {
+                   "nombre": "carne de cerdo",
+                   "cantidad": "200 gramos",
+                   "opcional": false
+                },
+                {
+                   "nombre": "puerro",
+                   "cantidad": "1",
+                   "opcional": false
+                },
+                {
+                   "nombre": "panceta ahumada",
+                   "cantidad": "50 gramos",
+                   "opcional": false
+                },
+                {
+                   "nombre": "sal",
+                   "cantidad": "a gusto",
+                   "opcional": false
+                },
+                {
+                   "nombre": "pimienta",
+                   "cantidad": "a gusto",
+                   "opcional": false
+                },
+                {
+                   "nombre": "pimentón",
+                   "cantidad": "a gusto",
+                   "opcional": false
+                },
+                {
+                   "nombre": "salsa de soja",
+                   "cantidad": "a gusto",
+                   "opcional": false
+                }
+            ],
+            "preparacion": [
+                "Como primer paso, amasar la harina con el agua y una pizca de sal hasta obtener una masa homogénea y de fácil manejo. Dejar reposar con unos 15 minutos.",
+                "Cortar la carne de cerdo en pequeños cuadrados, los hongos, la panceta y el puerro. Agregar sal, pimienta, pimentón y la salsa de soja. Mezclar todo.",
+                "Tomar nuevamente la masa y estirarla con un espesor entre 2 y 3 mm. Cortar círculos pequeños de 8-9 cm. de diámetro. Colocar el relleno en el medio y luego, levantar todos los bordes hacia arriba y llevarlos hacia el centro. Atar con una tira de puerro.",
+                "Ahora si, colocar las bolitas en la rejilla de la cazuela y agregar 2 cm. de agua. Cuando comience a hervir cocinar a vapor hasta que la masa quede transparente.",
+                "Si desean freírlos, una vez que los quiten de la rejilla, pueden agregar aceite a una sartén y dejarlos por unos minutos hasta que observen la masa ligeramente doradita.",
+                "Finalmente, para la presentación, servir los bollos bien calientes con salsa de soja."
+            ],
+            "consejos":[]
+        }
+    ]
+}

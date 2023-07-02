@@ -1,0 +1,59 @@
+{
+    "nombre": "Buffalo wings",
+    "descripcion":[
+        "Cuando viajé a Estados Unidos, terminé de descubrir que la cocina del país corresponde a una gran mezcla de gastronomías nacionales como la europea, la asiática y la africana. Es así que podéis encontrar desde la famosa comida “fast food” como la hamburguesa o las papas fritas hasta productos como el pavo, maíz, habas, girasol, pimientos o patatas.",
+        "Pues si andáis con ganas de preparar un de los platos típicos de Estados Unidos, de seguro que las Buffalo wings o alitas de pollo os encantará. También denominada como hot wings o chicken wings, esta exquisita preparación consta de alitas de pollo fritas que suelen bañarse en salsas especiales, como la de estilo búfalo, hecha con salsa picante de vinagre y cayena junto con margarina o mantequilla.",
+        "En tanto sus características, por lo general las Buffalo wings se deben secar para que logren escurrir todo el aceite y de esta manera, quedar crujientes. Asimismo, como principal acompañamiento de este plato de Estados Unidos podéis servir apio cortado y un poquito de salsa de queso azul (llamado también queso roquefort)."
+    ],
+    "imagen": "https://recetasdeviajes.com/wp-content/uploads/2011/05/r173.jpg",
+    "ingredientes": [
+        {
+            "nombre": "alitas de pollo limpias",
+            "cantidad": "1 kilo",
+            "opcional": false
+        },
+        {
+            "nombre": "mantequilla sin sal",
+            "cantidad": "1 barra",
+            "opcional": false
+        },
+        {
+            "nombre": "dientes de ajo picados",
+            "cantidad": "2",
+            "opcional": false
+        },
+        {
+            "nombre": "pasta de tomate",
+            "cantidad": "2 cucharadas",
+            "opcional": false
+        },
+        {
+            "nombre": "vinagre blanco",
+            "cantidad": "2 cucharadas",
+            "opcional": false
+        },
+        {
+            "nombre": "consomé de pollo en polvo",
+            "cantidad": "2 cucharadas",
+            "opcional": false
+        },
+        {
+            "nombre": "vino blanco",
+            "cantidad": "1/2 taza",
+            "opcional": false
+        },
+        {
+            "nombre": "salsa tabasco",
+            "cantidad": "!/2 taza",
+            "opcional": true
+        }
+    ],
+    "preparacion": [
+        "Lo primero que debéis realizar es tomar una sartén y llevarla a fuego suave. Derretir la mantequilla, añadir el ajo picado y comenzar a revolver con cuchara de madera hasta que observéis que modifica su color.",
+        "A continuación, agregar el resto de los ingredientes (menos las alitas de pollo), el vino blanco y seguir revolviendo por 5 minutos más.",
+        "Por otra parte, debéis adobar todas las alitas de pollo con sal y pimienta a gusto. Tomar una cacerola grande, incorporar bastante aceite y llevar todos los ejemplares a fritar (si no queréis fritarlas, podéis llevarlas a horno fuerte por 20 minutos aproximadamente).",
+        "Bañar las alitas de pollo con la salsa tabasco una vez que esté todas fritas. Recuerden que deben dejar que se terminen de secar por completo para que queden bien crujientes.",
+        "Como dato adicional, os comento que podéis acompañar con otra salsa como medio pote de mayonesa, ¼ de ketchup y ¼ de queso azul."
+    ],
+    "consejos":[]
+}

@@ -1,0 +1,17 @@
+GET http://localhost:3000/recipes HTTP/1.1
+
+###
+
+GET http://localhost:3000/recipes/Alemania HTTP/1.1
+
+###
+
+GET http://localhost:3000/recipes/Estados%20Unidos HTTP/1.1
+
+###
+
+GET http://localhost:3000/recipes/Brasil/Frijoles%20estilo%20tropeiro HTTP/1.1
+
+###
+
+GET http://localhost:3000/recipes/Chile/Brazo%20de%20Reina

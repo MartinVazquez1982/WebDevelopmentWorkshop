@@ -1,0 +1,77 @@
+
+PUT  http://localhost:3000/recipes/update/Italia/Pasta%20con%20salmon%20y%20nata HTTP/1.1
+content-type: application/json
+
+{
+    "nombre": "Pasta con salmon y crema",
+    "descripcion": ["Para el día de hoy hemos seleccionado una receta muy sabrosa y sencilla de preparar, la pasta con salmón y salsa a base de crema, un plato que admite muchos añadidos y cambios gracias a su equilibrio de sabores. Para esta receta podemos utilizar tanto salmón natural como ahumado o también salmón marinado, aunque hemos de tener cuidado con el exceso de sal. En cualquier caso esta receta de pasta no os llevará más de una hora de trabajo y casi todos los ingredientes excepto el salmón son de «andar por casa»."],
+    "ingredientes":[
+        {
+            "nombre": "Pasta a eleccion",
+            "cantidad": "400 gramos",
+            "opcional": false
+        },
+        {
+            "nombre": "salmón ahumado",
+            "cantidad": "250 gramos",
+            "opcional": false
+        },
+        {
+            "nombre": "nata para cocinar",
+            "cantidad": "500 ml",
+            "opcional": false
+        },
+        {
+            "nombre": "cebolla",
+            "cantidad": "1",
+            "opcional": false
+        },
+        {
+            "nombre": "dientes de ajo",
+            "cantidad": "3",
+            "opcional": false
+        },
+        {
+            "nombre": "aceitunas verdes sin carozo",
+            "cantidad": "dos puñados",
+            "opcional": false
+        },
+        {
+            "nombre": "Eneldo",
+            "cantidad": "a gusto",
+            "opcional": false
+        },
+        {
+            "nombre": "Sal",
+            "cantidad": "a gusto",
+            "opcional": false
+        },
+        {
+            "nombre": "Pimienta negra",
+            "cantidad": "a gusto",
+            "opcional": false
+        },
+        {
+            "nombre": "aceite de oliva",
+            "cantidad": "a gusto",
+            "opcional": false
+        }
+    ]
+}
+
+###
+
+PUT  http://localhost:3000/recipes/update/Argentina/Churrasco HTTP/1.1
+content-type: application/json
+
+{
+    "nombre": "Bife de Lomo"
+}
+
+### 
+PUT  http://localhost:3000/recipes/update/Argentina/Bife%20de%20Lomo HTTP/1.1
+content-type: application/json
+
+{
+    "nombre": "Churrasco"
+}
