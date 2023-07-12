@@ -6,10 +6,10 @@ async function datosPaises(req, res){
         const options = {
             "_id": 0, nombre: 1, bandera: 1
         };
-        const salida = await model.find(query, options);
-        res.json(salida);
+        const salida = await model.find(query, options).sort({nombre:1});
+        res.status(200).json(salida);
     } catch(err){
-        console.log(err)
+        res.status(500).json({message: err.message});
     }
 }
 
@@ -21,9 +21,9 @@ async function recetasPais(req, res){
             "_id":0, 'recetas.nombre':1, 'recetas.imagen':1
         };
         const salida = await model.find(query, options);
-        res.json(salida);
+        res.status(200).json(salida[0].recetas);
     } catch(err){
-        console.log(err);
+        res.status(500).json({message: err.message});
     }
 }
 
@@ -36,9 +36,9 @@ async function datosReceta(req, res){
             "_id":0, 'recetas.$': 1
         };
         const salida = await model.find(query, options);
-        res.json(salida);
+        res.status(200).json(salida[0].recetas[0]);
     } catch(err){
-        console.log(err);
+        res.status(500).json({message: err.message});
     }
 }
 

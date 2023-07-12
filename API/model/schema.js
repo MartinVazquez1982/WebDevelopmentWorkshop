@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 
 const schPais = new Schema({
-    nombre: String,
+    nombre: {type: String, unique: true},
     bandera: String,
     recetas:[
         {

@@ -5,10 +5,9 @@ async function insertPais(req, res){
     try{
         const data = req.body;
         await model.create(data);
-        res.send('Insercion exitosa');
+        res.status(200).json({status: "OK", message: "Insercion Exitosa"});
     } catch(err){
-        res.status(500);
-        res.send(err.menssage);
+        res.status(500).json({message: err.message});
     }
 }
 
@@ -19,10 +18,9 @@ async function insertReceta(req, res){
         const filter = {nombre : countryId};
         const nuevaReceta = { $push: {recetas: data} };
         await model.updateOne(filter, nuevaReceta);
-        res.send('Insercion exitosa');
+        res.status(200).json({status: "OK", message: "Insercion Exitosa"});
     } catch(err){
-        res.status(500);
-        res.send(err.menssage);
+        res.status(500).json({message: err.message});
     }
 }
 
@@ -34,10 +32,9 @@ async function deleteReceta(req, res){
         const filter = {nombre: countryId};
         const actualizacion = {$pull:{recetas:{ nombre: recipeId}}};
         await model.updateOne(filter, actualizacion);
-        res.send('Eliminacion exitosa');
+        res.status(200).json({status: "OK", message: "Eliminacion Exitosa"});
     } catch(err){
-        res.status(500);
-        res.send(err.menssage);
+        res.status(500).json({message: err.message});
     }
 }
 
@@ -55,10 +52,9 @@ async function updateReceta(req, res){
         }
         console.log(actualizacion);
         await model.updateOne(filter,{$set: actualizacion});
-        res.send('Actualizacion exitosa');
+        res.status(200).json({status: "OK", message: "Actualizacion Exitosa"});
     } catch(err){
-        res.status(500);
-        res.send(err.menssage);
+        res.status(500).json({message: err.message});
     }
 }
 
