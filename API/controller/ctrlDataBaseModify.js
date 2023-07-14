@@ -7,7 +7,7 @@ async function insertPais(req, res){
         await model.create(data);
         res.status(200).json({status: "OK", message: "Insercion Exitosa"});
     } catch(err){
-        res.status(500).json({message: err.message});
+        res.status(500).json({status: "Fallo en API-Rest", message: err.message});
     }
 }
 
@@ -20,7 +20,7 @@ async function insertReceta(req, res){
         await model.updateOne(filter, nuevaReceta);
         res.status(200).json({status: "OK", message: "Insercion Exitosa"});
     } catch(err){
-        res.status(500).json({message: err.message});
+        res.status(500).json({status: "Fallo en API-Rest", message: err.message});
     }
 }
 
@@ -34,7 +34,7 @@ async function deleteReceta(req, res){
         await model.updateOne(filter, actualizacion);
         res.status(200).json({status: "OK", message: "Eliminacion Exitosa"});
     } catch(err){
-        res.status(500).json({message: err.message});
+        res.status(500).json({status: "Fallo en API-Rest", message: err.message});
     }
 }
 
@@ -54,7 +54,7 @@ async function updateReceta(req, res){
         await model.updateOne(filter,{$set: actualizacion});
         res.status(200).json({status: "OK", message: "Actualizacion Exitosa"});
     } catch(err){
-        res.status(500).json({message: err.message});
+        res.status(500).json({status: "Fallo en API-Rest", message: err.message});
     }
 }
 

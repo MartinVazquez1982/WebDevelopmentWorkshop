@@ -9,7 +9,7 @@ async function datosPaises(req, res){
         const salida = await model.find(query, options).sort({nombre:1});
         res.status(200).json(salida);
     } catch(err){
-        res.status(500).json({message: err.message});
+        res.status(500).json({status: "Fallo en API-Rest", message: err.message});
     }
 }
 
@@ -23,7 +23,7 @@ async function recetasPais(req, res){
         const salida = await model.find(query, options);
         res.status(200).json(salida[0].recetas);
     } catch(err){
-        res.status(500).json({message: err.message});
+        res.status(500).json({status: "Fallo en API-Rest", message: err.message});
     }
 }
 
@@ -38,7 +38,7 @@ async function datosReceta(req, res){
         const salida = await model.find(query, options);
         res.status(200).json(salida[0].recetas[0]);
     } catch(err){
-        res.status(500).json({message: err.message});
+        res.status(500).json({status: "Fallo en API-Rest", message: err.message});
     }
 }
 
