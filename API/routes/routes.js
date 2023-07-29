@@ -13,9 +13,9 @@ router.post('/insertPais', modifyDatabase.insertPais);
 router.post('/insertRecipe/:country', modifyDatabase.insertReceta);
 
 // Put
-router.put('/update/:country/:recipe', modifyDatabase.updateReceta);
+router.put('/:country/:recipe', modifyDatabase.updateReceta);
 
 //Delete
-router.delete('/deleteRecipe/:country/:recipe', modifyDatabase.deleteReceta);
+router.delete('/:country/:recipe', modifyDatabase.deleteReceta);
 
 module.exports = router;

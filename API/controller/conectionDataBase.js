@@ -5,7 +5,7 @@ async function conectar(){
     //------------------------- URL
 
     //  DOCKER
-    const url = 'mongodb://myapp-mongodb-1:27017/';
+    const url = 'mongodb://webdevelopmentworkshop-mongodb-1:27017/';
 
     //  MAQUINA VIRTUAL
     //const url =  'mongodb://agustina:agustina@127.0.0.1:27017/test'
