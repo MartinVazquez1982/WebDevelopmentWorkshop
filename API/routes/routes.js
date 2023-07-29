@@ -9,8 +9,8 @@ router.get('/:country', readDatabase.recetasPais);
 router.get('/:country/:recipe', readDatabase.datosReceta);
 
 // Post
-router.post('/insertPais', modifyDatabase.insertPais);
-router.post('/insertRecipe/:country', modifyDatabase.insertReceta);
+router.post('/', modifyDatabase.insertPais);
+router.post('/:country', modifyDatabase.insertReceta);
 
 // Put
 router.put('/:country/:recipe', modifyDatabase.updateReceta);
