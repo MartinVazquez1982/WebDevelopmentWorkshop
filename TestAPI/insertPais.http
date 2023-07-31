@@ -1,8 +1,8 @@
-POST http://localhost:3000/recipes/insertPais HTTP/1.1
+POST http://localhost:3000/recipes HTTP/1.1
 content-type: application/json
 
 {
-    "nombre": "Italia",
+    "nombre": "Italian",
     "bandera": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Flag_of_Italy.svg/300px-Flag_of_Italy.svg.png",
     "recetas":[
         {
@@ -75,7 +75,7 @@ content-type: application/json
 
 ###
 
-POST http://localhost:3000/recipes/insertPais HTTP/1.1
+POST http://localhost:3000/recipes HTTP/1.1
 content-type: application/json
 
 {
@@ -151,7 +151,7 @@ content-type: application/json
 }
 
 ###
-POST http://localhost:3000/recipes/insertPais HTTP/1.1
+POST http://localhost:3000/recipes HTTP/1.1
 content-type: application/json
 
 {

@@ -1,5 +1,5 @@
-DELETE  http://localhost:3000/recipes/deleteRecipe/Italia/Pasta%20con%20salmon%20y%20nata HTTP/1.1
+DELETE  http://localhost:3000/recipes/Italia/Pasta%20con%20salmon%20y%20nata HTTP/1.1
 
 ###
 
-DELETE http://localhost:3000/recipes/deleteRecipe/Rusia/Palmeni HTTP/1.1
+DELETE http://localhost:3000/recipes/Rusia/Palmeni HTTP/1.1

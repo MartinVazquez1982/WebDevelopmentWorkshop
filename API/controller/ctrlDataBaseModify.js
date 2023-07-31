@@ -17,7 +17,7 @@ async function insertReceta(req, res){
         const data = req.body;
         const filter = {nombre : countryId};
         const nuevaReceta = { $push: {recetas: data} };
-        await model.updateOne(filter, nuevaReceta);
+        await model.updateOne(filter, nuevaReceta, {runValidators: true});
         res.status(200).json({status: "OK", message: "Insercion Exitosa"});
     } catch(err){
         res.status(500).json({status: "Fallo en API-Rest", message: err.message});

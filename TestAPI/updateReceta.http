@@ -1,5 +1,5 @@
 
-PUT  http://localhost:3000/recipes/update/Italia/Pasta%20con%20salmon%20y%20nata HTTP/1.1
+PUT  http://localhost:3000/recipes/Italia/Pasta%20con%20salmon%20y%20nata HTTP/1.1
 content-type: application/json
 
 {
@@ -61,7 +61,7 @@ content-type: application/json
 
 ###
 
-PUT  http://localhost:3000/recipes/update/Argentina/Churrasco HTTP/1.1
+PUT  http://localhost:3000/recipes/Argentina/Churrasco HTTP/1.1
 content-type: application/json
 
 {
@@ -69,7 +69,7 @@ content-type: application/json
 }
 
 ### 
-PUT  http://localhost:3000/recipes/update/Argentina/Bife%20de%20Lomo HTTP/1.1
+PUT  http://localhost:3000/recipes/Argentina/Bife%20de%20Lomo HTTP/1.1
 content-type: application/json
 
 {
