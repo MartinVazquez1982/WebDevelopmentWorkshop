@@ -4,12 +4,8 @@ var Schema = mongoose.Schema;
 async function conectar(){
     //------------------------- URL
 
-    //  DOCKER
-    const url = 'mongodb://webdevelopmentworkshop-mongodb-1:27017/';
-
-    //  MAQUINA VIRTUAL
-    //const url =  'mongodb://agustina:agustina@127.0.0.1:27017/test'
-    //const url = 'mongodb://David:bitnami.@127.0.0.1:27017/test';
+    // si no se define una variable de entorno con el string de conexión para mongo usa esta por default
+    const url = process.env.STRING_URL_MONGO ? process.env.STRING_URL_MONGO : 'mongodb://webdevelopmentworkshop-mongodb-1:27017/'; 
 
     await mongoose.connect(url).then(() => {
         console.log('Conexión Exitosa')
