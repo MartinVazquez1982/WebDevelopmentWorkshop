@@ -667,7 +667,7 @@
     },
     {
       "nombre": "Francia",
-      "bandera": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_France_%281794%E2%80%931815%2C_1830%E2%80%931974%2C_2020%E2%80%93present%29.svg/300px-Flag_of_France_%281794%E2%80%931815%2C_1830%E2%80%931974%2C_2020%E2%80%93present%29.svg.png",
+      "bandera": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Flag_of_France_%281794%E2%80%931815%2C_1830%E2%80%931974%29.svg/203px-Flag_of_France_%281794%E2%80%931815%2C_1830%E2%80%931974%29.svg.png",
       "recetas": [
         {
           "nombre": "Tarte Tatin",
@@ -1307,6 +1307,166 @@
             "A esta receta le va muy bien un poco de jengibre rallado en el sofrito, pero con cuidado de no pasarnos ya que su sabor es muy fuerte y no gusta a todo el mundo.",
             "Hay otros muchos ingredientes que le van bien como por ejemplo el pimiento verde, la cebolleta y el puerro, para contrarrestar el dulzor del salmón y darle un toque más amargo."
           ]
+        },
+        {
+          "nombre": "Tagliatelle con ragú a la boloñesa",
+          "descripcion": [
+            "Dentro de la cocina de Bolonia es posible encontrar un plato muy típico. Se trata de los Tagliatelle con ragú alla bolognese o a la boloñesa, una pasta hecha al huevo cortada en tiras de un centímetro de ancho y un milímetro de espesor.",
+            "A nivel histórico, esta pasta fue creada en el año 1487 por un cocinero de apellido Zefirano en el momento de los esponsales de Lucrezia Borgia, hija del poderoso renacentista valenciano Rodrigo Borgia, y Alfonso I d’Este.",
+            "De esta manera, en términos generales os comento que los tagliatelle (tallarines en italiano) se suelen comer con la salsa indicada y para preparar ésta, debéis contar con ingredientes como pulpa de cerdo, cordero, manteca, panceta, especias como romero y ajo y salsa de tomate. Pues sin más demoras, pasemos a la receta de Bolonia."
+          ],
+          "imagen": "https://recetasdeviajes.com/wp-content/uploads/2011/08/bolognese.jpg",
+          "ingredientes": [
+            {
+              "nombre": "harina 0000",
+              "cantidad": "600 gramos",
+              "opcional": false
+            },
+            {
+              "nombre": "huevos",
+              "cantidad": "6",
+              "opcional": false
+            },
+            {
+              "nombre": "yema",
+              "cantidad": "1",
+              "opcional": false
+            },
+            {
+              "nombre": "sal",
+              "cantidad": "a gusto",
+              "opcional": false
+            },
+            {
+              "nombre": "carne picada de novillo",
+              "cantidad": "200 gramos",
+              "opcional": false
+            },
+            {
+              "nombre": " carne picada de bondiola de cerdo",
+              "cantidad": "200 gramos",
+              "opcional": false
+            },
+            {
+              "nombre": "jamón crudo",
+              "cantidad": "100 gramos",
+              "opcional": false
+            },
+            {
+              "nombre": "Aceite de oliva",
+              "cantidad": "a gusto",
+              "opcional": false
+            },
+            {
+              "nombre": "cebolla",
+              "cantidad": "1",
+              "opcional": false
+            },
+            {
+              "nombre": "zanahoria",
+              "cantidad": "1/2",
+              "opcional": false
+            },
+            {
+              "nombre": "ramo de apio",
+              "cantidad": "1",
+              "opcional": false
+            },
+            {
+              "nombre": "cucharada de té de nuez moscada",
+              "cantidad": "1/2",
+              "opcional": false
+            },
+            {
+              "nombre": "cucharón de caldo de carne",
+              "cantidad": "1 y 1/2",
+              "opcional": false
+            },
+            {
+              "nombre": "gramos de salsa de tomate",
+              "cantidad": "250 gramos",
+              "opcional": false
+            },
+            {
+              "nombre": " vaso de leche",
+              "cantidad": "1/4",
+              "opcional": false
+            },
+            {
+              "nombre": "vaso de vino blanco seco",
+              "cantidad": "1/2",
+              "opcional": false
+            },
+            {
+              "nombre": "Queso parmesano",
+              "cantidad": "a gusto",
+              "opcional": false
+            }
+          ],
+          "preparacion": [
+            "Para hacer la masa debéis colocar en un bol hondo los huevos, la yema, sal y la harina. Mezclar hasta formar una masa lisa. Estirarla con un palo de amasar en forma rectangular y dejarla secar. Cuando esté seca, enrollarla y cortarla con un cuchillo los tagliatelle en finas tiras de un centímetro.",
+            "ara comenzar hacer la salsa, colocar el aceite de oliva en un olla y añadir la zanahoria, la cebolla y el apio cortado en cubitos. Cocinar a fuego lento por 15 minutos.",
+            "A continuación, agregar la nuez moscada, las carnes picadas, la salsa de tomate, el vino, la leche y el caldo. Integrar bien y dejar cocinar a fuego muy lento por 3 o 4 horas. Si observáis que se seca mucho, incorporar agua o caldo.",
+            "Una vez que la salsa esté lista, cocinar en una cacerola con agua hirviendo los tagliatelle y cuando estén listos, colarlos y saltearlos sobre la salsa a la boloñesa por unos minutos. Servir y agregar queso parmesano rallado por encima."
+          ],
+          "consejos": []
+        }
+      ]
+    },
+    {
+      "nombre": "Grecia",
+      "bandera": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Greece.svg/300px-Flag_of_Greece.svg.png",
+      "recetas": [
+        {
+          "nombre": "Tzatziki",
+          "descripcion": [
+            "La Salsa Tzatziki, cuyo ingrediente principal es el yogur y el pepino, es una de las salsa que más se utilizan para preparar el sabroso Kebab. Esta es una salsa de origen griego (precisamente se conoce también como «salsa griega«) que enriquece como pocas tanto las carnes como los mariscos. ¿Quieres aprender a prepararla en casa?… Antes conozcamos un poco más sobre ella:",
+            "La Salsa Tzatziki está considerada como una de las recetas más típicas del Grecia y quizás por eso resulta curioso que su preparación sea tan sencilla y económica. Aparte del Kebab, también es bastante habitual que acompañe al Mezze (plato de aperitivos variados propios de la cocina mediterránea) y al pan de pita. Posee un sabor muy peculiar ante el cual el sabor de los alimentos que acompaña corren el riesgo de palidecer."
+          ],
+          "imagen": "https://recetasdeviajes.com/wp-content/uploads/2009/05/tzatziki-salsa.jpg",
+          "ingredientes": [
+            {
+              "nombre": "pepinos pequeños rallados",
+              "cantidad": "2",
+              "opcional": false
+            },
+            {
+              "nombre": "yogur griego",
+              "cantidad": "500 ml",
+              "opcional": false
+            },
+            {
+              "nombre": "dientes de ajo bien machacados",
+              "cantidad": "3",
+              "opcional": false
+            },
+            {
+              "nombre": "Jugo de limón",
+              "cantidad": "a gusto",
+              "opcional": false
+            },
+            {
+              "nombre": "menta fresca",
+              "cantidad": "a gusto",
+              "opcional": false
+            },
+            {
+              "nombre": "Aceite de oliva",
+              "cantidad": "a gusto",
+              "opcional": false
+            },
+            {
+              "nombre": "sal",
+              "cantidad": "a gusto",
+              "opcional": false
+            }
+          ],
+          "preparacion": [
+            "Primero hay que eliminar la máxima cantidad posible de suero del yogur. Para ello hemos de dejarlo unas horas en la nevera, eso si, escurriendo en un colador de malla muy fina o en un paño especial, de esos para escurrir el queso. También es conveniente hacerlo con el pepino ya rallado.",
+            "Una vez escurridos tanto el yogur como el pepino, hemos de verterlo en un bol junto al ajo previamente machacado, dos o tres cucharadas de jugo de limón, una cucharadita de menta fresca bien picadita y una pizca de sal. Luego le agregamos un poco de aceite de oliva (un toque ligero) y tras taparlo lo dejamos reposar un par de horas de nuevo en la nevera.",
+            "Como adorno se le puede añadir dos o tres aceitunas negras estrategicamente colocadas en pleno centro, rodeadas de unos toquecitos de más menta picada, y hay hasta quien le añade algo de pimienta recién molida."
+          ],
+          "consejos": []
         }
       ]
     }

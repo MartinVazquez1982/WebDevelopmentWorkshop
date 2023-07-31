@@ -14,4 +14,8 @@ GET http://localhost:3000/recipes/Brasil/Frijoles%20estilo%20tropeiro HTTP/1.1
 
 ###
 
-GET http://localhost:3000/recipes/Chile/Brazo%20de%20Reina
+GET http://localhost:3000/recipes/Chile/Brazo%20de%20Reina HTTP/1.1
+
+###
+
+GET http://localhost:3000/recipes/Grecia HTTP/1.1

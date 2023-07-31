@@ -6,7 +6,8 @@
     "start": "node ./bin/www",
     "development": "nodemon ./bin/www",
     "start_vm": "cross-env STRING_URL_MONGO='mongodb://agustina:agustina@127.0.0.1:27017/test' node ./bin/www",
-    "start_docker": "cross-env STRING_URL_MONGO='mongodb://webdevelopmentworkshop-mongodb-1:27017/' node ./bin/www"
+    "start_docker": "cross-env STRING_URL_MONGO='mongodb://webdevelopmentworkshop-mongodb-1:27017/' node ./bin/www",
+    "loadData": "node ./loadDataBase/load.js"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
